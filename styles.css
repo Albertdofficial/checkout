@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: skyblue;
+}
+.cart {
+  display: flex;
+}
+
+.calculate {
+  display: flex;
+  margin: 0.5rem;
+  width: 20rem;
+}
+
+.calculate button{
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border: none;
+}
+
+.calculate button:hover{
+    border: 2px solid green;
+}
+
+textarea:focus{
+    outline: none;
+}
